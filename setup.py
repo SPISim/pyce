@@ -60,10 +60,10 @@ setup(
     maintainer='Soroco Americas Private Limited',  # Optional
     maintainer_email='opensource@soroco.com',  # Optional
     name='pyce',  # Required
-    platforms=['Windows 10', 'Windows Server 2008', 'Windows Server 2012',
+    platforms=['Windows 11',
                'Linux'],  # Optional
     packages=find_packages(exclude=[]),  # Required
-    python_requires='>=3.7, <3.8',
+    python_requires='>=3.10, <3.20',
     url='https://github.com/soroco/pyce',  # Optional
     version=__version__,  # Required
 )
